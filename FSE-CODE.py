@@ -130,7 +130,7 @@ def main_menu():
         if play_underline["size"] < play_button.width // 5:
             play_underline["size"] += 10
         if pygame.mouse.get_pressed()[0]:
-            game_mode = 1
+            game_mode = 2
     else:
         pygame.draw.rect(screen, BLACK, play_button, border_radius=30)
         pygame.draw.rect(screen, RED, play_button, width=5, border_radius=30)
